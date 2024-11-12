@@ -12,6 +12,9 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# run docker container
+docker build -t nextjs-first-steps .
+docker container run -dp 3000:3000 nextjs-first-steps
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
